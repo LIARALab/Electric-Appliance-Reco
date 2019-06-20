@@ -1,0 +1,12 @@
+{
+  "m_onEnvelope": {
+    "W-min": 120.00,
+	"W-max": 200.00
+  },
+  "m_offEnvelope": {
+    "W-min": -120.00,
+	"W-max": -200.00
+  },
+  "m_interval": 20.00,
+  "m_applianceName": "Game Console"
+}

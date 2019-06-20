@@ -1,0 +1,12 @@
+{
+  "m_onEnvelope": {
+    "W-min": 2000.00,
+	"W-max": 3000.00
+  },
+  "m_offEnvelope": {
+    "W-min": -2000.00,
+	"W-max": -3000.00
+  },
+  "m_interval": 100.00,
+  "m_applianceName": "Electric Heater Fan"
+}

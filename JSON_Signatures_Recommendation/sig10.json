@@ -1,0 +1,12 @@
+{
+  "m_onEnvelope": {
+    "W-min": 150.00,
+	"W-max": 400.00
+  },
+  "m_offEnvelope": {
+    "W-min": -150.00,
+	"W-max": -400.00
+  },
+  "m_interval": 50.00,
+  "m_applianceName": "Fridge/Freezer"
+}

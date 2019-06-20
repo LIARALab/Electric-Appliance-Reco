@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  electric:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: electric:latest
+    container_name: electric
+    restart: always
+    environment: 
+      - TZ=America/Montreal
+    ports: 
+      - 51234:51234
+    networks:
+      - electric-net
+
+networks:
+    electric-net:
+      name: electric-net
+      driver: bridge

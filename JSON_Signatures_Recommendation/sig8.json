@@ -1,0 +1,12 @@
+{
+  "m_onEnvelope": {
+    "W-min": 300.00,
+	"W-max": 400.00
+  },
+  "m_offEnvelope": {
+    "W-min": -300.00,
+	"W-max": -400.00
+  },
+  "m_interval": 100.00,
+  "m_applianceName": "Food Blender"
+}

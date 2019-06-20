@@ -1,0 +1,12 @@
+{
+  "m_onEnvelope": {
+    "W-min": 1000.00,
+	"W-max": 4000.00
+  },
+  "m_offEnvelope": {
+    "W-min": -1000.00,
+	"W-max": -4000.00
+  },
+  "m_interval": 100.00,
+  "m_applianceName": "Clothes Dryer"
+}

@@ -1,0 +1,12 @@
+{
+  "m_onEnvelope": {
+    "W-min": 100.00,
+	"W-max": 450.00
+  },
+  "m_offEnvelope": {
+    "W-min": -100.00,
+	"W-max": -450.00
+  },
+  "m_interval": 20.00,
+  "m_applianceName": "Desktop Computer"
+}
