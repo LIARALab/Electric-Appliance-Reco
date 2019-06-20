@@ -1,1 +1,1 @@
-# Electric Appliance Recognition WS
+# Electric-Appliance-Reco
