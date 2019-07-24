@@ -1,6 +1,7 @@
 version: '3.7'
 
 services:
+
   electric:
     build:
       context: .
@@ -8,6 +9,11 @@ services:
     image: electric:latest
     container_name: electric
     restart: always
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "250000k"
+        max-file: "2"
     environment: 
       - TZ=America/Montreal
     ports: 
