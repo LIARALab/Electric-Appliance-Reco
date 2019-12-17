@@ -1,7 +1,6 @@
 version: '3.7'
 
 services:
-
   electric:
     build:
       context: .
@@ -14,9 +13,9 @@ services:
       options:
         max-size: "250000k"
         max-file: "2"
-    environment: 
+    environment:
       - TZ=America/Montreal
-    ports: 
+    ports:
       - 51234:51234
     networks:
       - electric-net

@@ -1,10 +1,12 @@
-FROM arm32v7/gradle:5.4-jdk11-slim as builder
+#FROM arm32v7/gradle:5.4-jdk11-slim as builder
+FROM gradle:6.0-jdk11 as builder
 
 COPY --chown=gradle:gradle ./app /home/gradle/src
 WORKDIR /home/gradle/src
 RUN gradle build
 
-FROM arm32v7/openjdk:11-jdk-slim
+#FROM arm32v7/openjdk:11-jdk-slim
+FROM openjdk:11-jdk-slim
 
 RUN mkdir -p /usr/app/JSON_Signatures
 COPY ./JSON_Signatures /usr/app/JSON_Signatures
