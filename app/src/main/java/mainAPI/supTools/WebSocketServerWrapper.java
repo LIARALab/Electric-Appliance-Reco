@@ -50,7 +50,7 @@ public class WebSocketServerWrapper extends WebSocketServer {
 
         for (WebSocket s:con)
         {
-            System.out.println(message);
+            // System.out.println(message); // Fix Large Logs
             s.send(message);
         }
 

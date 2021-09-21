@@ -26,7 +26,7 @@ public class WebSocketServerProcessor extends SynchronousProcessor
     @Override
     protected boolean compute(Object[] inputs, Queue<Object[]> outputs)
     {
-        System.out.println(inputs[0]);
+        // System.out.println(inputs[0]); // Fix Large Logs
 
         if (sendingMessage.getIsOpen() == true)
         {

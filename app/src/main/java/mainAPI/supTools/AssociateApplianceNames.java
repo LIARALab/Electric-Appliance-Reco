@@ -36,7 +36,7 @@ public class AssociateApplianceNames extends SynchronousProcessor
         }
 
         outputs.add(new Object[]{ associate_appliance_names });
-        System.out.println(associate_appliance_names);
+        // System.out.println(associate_appliance_names); // Fix Large Logs
         return true;
 
     }

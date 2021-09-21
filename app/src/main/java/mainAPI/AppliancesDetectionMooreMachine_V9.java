@@ -109,7 +109,7 @@ public class AppliancesDetectionMooreMachine_V9 {
             ApplianceSignature sig;
             {
                 sig = (ApplianceSignature) signature_list.get(i);
-                System.out.println(sig);
+                // System.out.println(sig); // Fix Large Logs
             }
 
             int interval = (int) Math.round((double) interval_list.get(i));
@@ -187,7 +187,7 @@ public class AppliancesDetectionMooreMachine_V9 {
             ApplianceSignature sig;
             {
                 sig = (ApplianceSignature) recommendation_signature_list.get(i);
-                System.out.println(sig);
+                // System.out.println(sig); // Fix Large Logs
             }
 
             int interval = (int) Math.round((double) recommendation_interval_list.get(i));

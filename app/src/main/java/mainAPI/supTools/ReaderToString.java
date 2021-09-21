@@ -108,7 +108,7 @@ public class ReaderToString extends SynchronousProcessor
 
         } catch (Exception exc)
         {
-            System.out.println(exc);
+            // System.out.println(exc); // Fix Large Logs
             outputs.add(new Object[]{});
             return true;
         }
